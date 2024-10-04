@@ -1,0 +1,65 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\YBM-Projects\\eAppointment\\eAppointmentServer\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D756AB26-E317-488E-A370-85825466F614}|eAppointmentServer.Infrastructure\\eAppointmentServer.Infrastructure.csproj|c:\\ybm-projects\\eappointment\\eappointmentserver\\eappointmentserver.infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D756AB26-E317-488E-A370-85825466F614}|eAppointmentServer.Infrastructure\\eAppointmentServer.Infrastructure.csproj|solutionrelative:eappointmentserver.infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{9681d69d-90e5-4d1d-ad3c-0da0fcddf13c}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{c93a910a-0fa6-4307-93a4-f2bd61ec7828}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\YBM-Projects\\eAppointment\\eAppointmentServer\\eAppointmentServer.Infrastructure\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "eAppointmentServer.Infrastructure\\DependencyInjection.cs",
+              "ToolTip": "C:\\YBM-Projects\\eAppointment\\eAppointmentServer\\eAppointmentServer.Infrastructure\\DependencyInjection.cs",
+              "RelativeToolTip": "eAppointmentServer.Infrastructure\\DependencyInjection.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAAwBoAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T11:10:29.808Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
