@@ -17,3 +17,4 @@ C:\YBM-Projects\eAppointment\eAppointmentServer\eAppointmentServer.Infrastructur
 C:\YBM-Projects\eAppointment\eAppointmentServer\eAppointmentServer.Infrastructure\obj\Debug\net8.0\eAppointmentServer.Infrastructure.pdb
 C:\YBM-Projects\eAppointment\eAppointmentServer\eAppointmentServer.Infrastructure\obj\Debug\net8.0\eAppointmentServer.Infrastructure.genruntimeconfig.cache
 C:\YBM-Projects\eAppointment\eAppointmentServer\eAppointmentServer.Infrastructure\obj\Debug\net8.0\ref\eAppointmentServer.Infrastructure.dll
+C:\YBM-Projects\eAppointment\eAppointmentServer\eAppointmentServer.Infrastructure\obj\Debug\net8.0\eAppointmentServer.Infrastructure.sourcelink.json
