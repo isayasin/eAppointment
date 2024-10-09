@@ -9,14 +9,20 @@
         <p>Please fill your information to sign in</p>
       </div>
       <div class="card-body">
-        <form formValidate [autoValidateMessage]="true" #loginForm="ngForm" autocomplete="off">
+        <form
+          formValidate
+          [autoValidateMessage]="true"
+          #loginForm="ngForm"
+          autocomplete="off"
+          (ngSubmit)="signIn(loginForm)"
+        >
           <div class="form-group">
-            <label>UserName or Email </label>
+            <label>Username or Email </label>
             <input
               type="text"
               class="form-control"
               name="userNameOrEmail"
-              [(ngModel)]="login.userNameOrEmail"
+              [(ngModel)]="login.UserNameOrEmail"
               required
               minlength="3"
             />
@@ -29,7 +35,7 @@
               #password
               class="form-control"
               name="password"
-              [(ngModel)]="login.password"
+              [(ngModel)]="login.Password"
               required
             />
             <div class="invalid-feedback"></div>
@@ -43,7 +49,7 @@
             }
           </div>
           <div class="form-group mt-2">
-            <button class="btn btn-dark w-100">
+            <button type="submit" class="btn btn-dark w-100">
               Sign In
               <i class="fa-solid fa-lock me-1"></i>
             </button>

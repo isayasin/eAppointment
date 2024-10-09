@@ -1,6 +1,7 @@
 import { HttpClient, HttpErrorResponse } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { ResultModel } from '../models/result.model';
+import { api } from '../constant';
 
 @Injectable({
   providedIn: 'root',
@@ -12,11 +13,13 @@ export class HttpService {
     apiUrl: string,
     body: any,
     callback: (res: ResultModel<T>) => void,
-    errCallBack: (err: HttpErrorResponse) => void
+    errCallBack?: (err: HttpErrorResponse) => void
   ) {
-    this.http.post<ResultModel<T>>(`${apiUrl}`, body).subscribe({
+    this.http.post<ResultModel<T>>(`${api}/${apiUrl}`, body).subscribe({
       next: (res) => {
-        callback(res);
+        if (res.data !== undefined && res.data !== null) {
+          callback(res);
+        }
       },
       error: (err: HttpErrorResponse) => {
         if (errCallBack != undefined) {
