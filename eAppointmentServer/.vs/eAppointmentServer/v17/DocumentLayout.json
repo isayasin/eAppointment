@@ -66,8 +66,7 @@
               "RelativeToolTip": "eAppointmentServer.WebAPI\\Program.cs",
               "ViewState": "AQIAAAkAAAAAAAAAAAAAABgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-09T09:35:41.274Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-09T09:35:41.274Z"
             },
             {
               "$type": "Document",
@@ -77,7 +76,7 @@
               "RelativeDocumentMoniker": "eAppointmentServer.WebAPI\\Controllers\\AuthController.cs",
               "ToolTip": "C:\\YBM-Projects\\eAppointment\\eAppointmentServer\\eAppointmentServer.WebAPI\\Controllers\\AuthController.cs",
               "RelativeToolTip": "eAppointmentServer.WebAPI\\Controllers\\AuthController.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA8AAAAEAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABQAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-09T09:32:52.338Z",
               "EditorCaption": ""
@@ -92,8 +91,7 @@
               "RelativeToolTip": "eAppointmentServer.Application\\Features\\Auth\\Login\\LoginCommandHandler.cs",
               "ViewState": "AQIAAAkAAAAAAAAAAAAAABkAAAA+AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-09T09:23:31.022Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-09T09:23:31.022Z"
             },
             {
               "$type": "Document",
@@ -105,8 +103,7 @@
               "RelativeToolTip": "eAppointmentServer.Application\\Features\\Auth\\Login\\LoginCommand.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAqwAUAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-09T09:23:30.436Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-09T09:23:30.436Z"
             }
           ]
         }
