@@ -13,3 +13,4 @@ C:\YBM-Projects\eAppointment\eAppointmentServer\eAppointmentServer.Application\o
 C:\YBM-Projects\eAppointment\eAppointmentServer\eAppointmentServer.Application\obj\Debug\net8.0\refint\eAppointmentServer.Application.dll
 C:\YBM-Projects\eAppointment\eAppointmentServer\eAppointmentServer.Application\obj\Debug\net8.0\eAppointmentServer.Application.pdb
 C:\YBM-Projects\eAppointment\eAppointmentServer\eAppointmentServer.Application\obj\Debug\net8.0\ref\eAppointmentServer.Application.dll
+C:\YBM-Projects\eAppointment\eAppointmentServer\eAppointmentServer.Application\obj\Debug\net8.0\eAppointmentServer.Application.sourcelink.json

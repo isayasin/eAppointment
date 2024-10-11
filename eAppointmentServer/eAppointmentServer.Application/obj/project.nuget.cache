@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "V4somNsZOeU=",
+  "dgSpecHash": "qAGV3H0Bx6c=",
   "success": true,
   "projectFilePath": "C:\\YBM-Projects\\eAppointment\\eAppointmentServer\\eAppointmentServer.Application\\eAppointmentServer.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\isaya\\.nuget\\packages\\ardalis.smartenum\\8.1.0\\ardalis.smartenum.8.1.0.nupkg.sha512",
+    "C:\\Users\\isaya\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\isaya\\.nuget\\packages\\mediatr\\12.4.1\\mediatr.12.4.1.nupkg.sha512",
     "C:\\Users\\isaya\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
     "C:\\Users\\isaya\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\8.0.8\\microsoft.aspnetcore.cryptography.internal.8.0.8.nupkg.sha512",

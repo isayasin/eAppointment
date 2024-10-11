@@ -7,7 +7,7 @@ using TS.Result;
 
 namespace eAppointmentServer.Application.Features.Auth.Login;
 
-public sealed class LoginCommandHandler(UserManager<AppUser> userManager, IJwtProvider jwtProvider) : IRequestHandler<LoginCommand, Result<LoginCommandResponse>>
+internal sealed class LoginCommandHandler(UserManager<AppUser> userManager, IJwtProvider jwtProvider) : IRequestHandler<LoginCommand, Result<LoginCommandResponse>>
 {
     public async Task<Result<LoginCommandResponse>> Handle(LoginCommand request, CancellationToken cancellationToken)
     {
@@ -23,7 +23,7 @@ public sealed class LoginCommandHandler(UserManager<AppUser> userManager, IJwtPr
 
         if (!isPasswordCorrect)
         {
-            return Result<LoginCommandResponse>.Failure("Password is note correct");
+            return Result<LoginCommandResponse>.Failure("Password is not correct");
         }
 
         string token = jwtProvider.CreateToken(appUser);
