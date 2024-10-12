@@ -1,9 +1,9 @@
 <div class="mt-3 d-flex justify-content-between align-items-center">
-  <h3>Doctors Page</h3>
+  <h3>Patients Page</h3>
   <nav aria-label="breadcrumb">
     <ol class="breadcrumb">
       <li class="breadcrumb-item"><a routerLink="/">Home</a></li>
-      <li class="breadcrumb-item active">Doctors</li>
+      <li class="breadcrumb-item active">Patients</li>
     </ol>
   </nav>
 </div>
@@ -18,7 +18,7 @@
           data-bs-target="#addModal"
         >
           <i class="fa-solid fa-plus me-1"></i>
-          <span>Add Doctor</span>
+          <span>Add Patient</span>
         </button>
       </div>
 
@@ -28,7 +28,7 @@
         <input
           type="search"
           class="form-control"
-          placeholder="Search Doctor..."
+          placeholder="Search Patient..."
           [(ngModel)]="search"
         />
         <i class="fa-solid fa-magnifying-glass search"></i>
@@ -42,30 +42,34 @@
         <tr>
           <th>#</th>
           <th>Full Name</th>
-          <th>Department</th>
+          <th>Identity Number</th>
+          <th>City / Town</th>
+          <th>Full Address</th>
           <th>Operations</th>
         </tr>
       </thead>
       <tbody>
-        @for (doctor of doctors | doctor : search; track doctor) {
+        @for (patient of patients | patient : search; track patient) {
         <tr>
           <td>{{ $index + 1 }}</td>
-          <td>{{ doctor.fullName }}</td>
-          <td>{{ doctor.department.name }}</td>
+          <td>{{ patient.fullName }}</td>
+          <td>{{ patient.identityNumber }}</td>
+          <td>{{ patient.city }} / {{ patient.town }}</td>
+          <td>{{ patient.fullAddress }}</td>
           <td>
             <button
               class="btn btn-sm btn-outline-primary me-1"
               title="Update"
               data-bs-toggle="modal"
               data-bs-target="#updateModal"
-              (click)="fillUpdateModal(doctor)"
+              (click)="fillUpdateModal(patient)"
             >
               <i class="fa-solid fa-edit"></i>
             </button>
             <button
               class="btn btn-sm btn-outline-danger"
               title="Delete"
-              (click)="delete(doctor.id, doctor.fullName)"
+              (click)="delete(patient.id, patient.fullName)"
             >
               <i class="fa-solid fa-trash"></i>
             </button>
@@ -82,7 +86,7 @@
   <div class="modal-dialog modal-dialog-centered">
     <div class="modal-content">
       <div class="modal-header">
-        <h1 class="modal-title fs-5">Add Doctor Form</h1>
+        <h1 class="modal-title fs-5">Add Patient Form</h1>
         <button
           #addModalCloseBtn
           type="button"
@@ -124,22 +128,58 @@
             <div class="invalid-feedback"></div>
           </div>
           <div class="form-group mt-1">
-            <label>Department</label>
-            <select
+            <label>Identity Number</label>
+            <input
+              type="text"
+              pattern="^[1-9][0-9]{9}[02468]$"
+              [(ngModel)]="createModel.identityNumber"
+              name="identityNumber"
               class="form-control"
-              name="department"
-              [(ngModel)]="createModel.departmentValue"
               required
-            >
-              <option [value]="0">Select...</option>
-              @for (department of departments; track department) {
-              <option [value]="department.value">{{ department.name }}</option>
-              }
-            </select>
+              minlength="11"
+              maxlength="11"
+            />
+            <div class="invalid-feedback"></div>
+          </div>
+          <div class="form-group mt-1">
+            <label>City</label>
+            <input
+              type="text"
+              [(ngModel)]="createModel.city"
+              name="city"
+              class="form-control"
+              required
+              minlength="3"
+            />
+            <div class="invalid-feedback"></div>
+          </div>
+          <div class="form-group mt-1">
+            <label>Town</label>
+            <input
+              type="text"
+              [(ngModel)]="createModel.town"
+              name="town"
+              class="form-control"
+              required
+              minlength="3"
+            />
+            <div class="invalid-feedback"></div>
+          </div>
+          <div class="form-group mt-1">
+            <label>Full Address</label>
+            <textarea
+              name="fullAddress"
+              type="text"
+              [(ngModel)]="createModel.fullAddress"
+              name="fullAddress"
+              class="form-control"
+              required
+              minlength="15"
+            ></textarea>
             <div class="invalid-feedback"></div>
           </div>
         </div>
-        <div class="modal-footer">
+        <div class="modal-footer mt-2">
           <button type="submit" class="btn btn-dark w-100">Save</button>
         </div>
       </form>
@@ -152,7 +192,7 @@
   <div class="modal-dialog modal-dialog-centered">
     <div class="modal-content">
       <div class="modal-header">
-        <h1 class="modal-title fs-5">Update Doctor Form</h1>
+        <h1 class="modal-title fs-5">Update Patient Form</h1>
         <button
           #updateModalCloseBtn
           type="button"
@@ -194,18 +234,54 @@
             <div class="invalid-feedback"></div>
           </div>
           <div class="form-group mt-1">
-            <label>Department</label>
-            <select
+            <label>Identity Number</label>
+            <input
+              type="text"
+              pattern="^[1-9][0-9]{9}[02468]$"
+              [(ngModel)]="updateModel.identityNumber"
+              name="identityNumber"
               class="form-control"
-              name="updateDepartment"
-              [(ngModel)]="updateModel.departmentValue"
               required
-            >
-              <option value="">Select...</option>
-              @for (department of departments; track department) {
-              <option [value]="department.value">{{ department.name }}</option>
-              }
-            </select>
+              minlength="11"
+              maxlength="11"
+            />
+            <div class="invalid-feedback"></div>
+          </div>
+          <div class="form-group mt-1">
+            <label>City</label>
+            <input
+              type="text"
+              [(ngModel)]="updateModel.city"
+              name="city"
+              class="form-control"
+              required
+              minlength="3"
+            />
+            <div class="invalid-feedback"></div>
+          </div>
+          <div class="form-group mt-1">
+            <label>Town</label>
+            <input
+              type="text"
+              [(ngModel)]="updateModel.town"
+              name="town"
+              class="form-control"
+              required
+              minlength="3"
+            />
+            <div class="invalid-feedback"></div>
+          </div>
+          <div class="form-group mt-1">
+            <label>Full Address</label>
+            <textarea
+              name="fullAddress"
+              type="text"
+              [(ngModel)]="updateModel.fullAddress"
+              name="fullAddress"
+              class="form-control"
+              required
+              minlength="15"
+            ></textarea>
             <div class="invalid-feedback"></div>
           </div>
         </div>
