@@ -46,6 +46,9 @@
       [endDayHour]="18"
       [showAllDayPanel]="false"
       (onAppointmentFormOpening)="onAppointmentFormOpening($event)"
+      (onAppointmentDeleted)="onAppointmentDeleted($event)"
+      (onAppointmentDeleting)="onAppointmentDeleting($event)"
+      (onAppointmentUpdating)="onAppointmentUpdating($event)"
     >
       <!-- Configuration goes here -->
     </dx-scheduler>

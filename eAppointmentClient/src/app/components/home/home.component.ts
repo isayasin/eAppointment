@@ -116,4 +116,41 @@ export class HomeComponent {
       });
     }
   }
+
+  onAppointmentDeleted(e: any) {
+    e.cancel = true;
+  }
+
+  onAppointmentDeleting(e: any) {
+    e.cancel = true;
+    this.swal.callSwal(
+      'Delete Appointment?',
+      `Do you want the delete ${e.appointmentData.patient.fullName}'s appointment?`,
+      'Delete',
+      () => {
+        this.http.post<string>(
+          'Appointments/DeleteById',
+          { id: e.appointmentData.id },
+          (res) => {
+            this.swal.callToast(res.data, 'success');
+            this.getAllAppointmentsByDoctorId();
+          }
+        );
+      }
+    );
+  }
+
+  onAppointmentUpdating(e: any) {
+    e.cancel = true;
+    const data = {
+      id: e.oldData.id,
+      startDate: this.date.transform(e.newData.startDate, 'dd.MM.yyyy HH:mm'),
+      endDate: this.date.transform(e.newData.endDate, 'dd.MM.yyyy HH:mm'),
+    };
+
+    this.http.post<string>('Appointments/Update', data, (res) => {
+      this.swal.callToast(res.data, 'success');
+      this.getAllAppointmentsByDoctorId();
+    });
+  }
 }
