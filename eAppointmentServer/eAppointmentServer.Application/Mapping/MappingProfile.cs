@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using eAppointmentServer.Application.Features.Appointments.CreateAppointment;
 using eAppointmentServer.Application.Features.Doctors.CreateDoctor;
 using eAppointmentServer.Application.Features.Doctors.UpdateDoctorById;
 using eAppointmentServer.Application.Features.Patients.CreatePatient;
@@ -24,6 +25,8 @@ public sealed class MappingProfile : Profile
         CreateMap<CreatePatientCommand, Patient>();
 
         CreateMap<UpdatePatientCommand, Patient>();
+
+        CreateMap<CreateAppointmentCommand, Patient>();
 
 
     }

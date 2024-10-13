@@ -35,7 +35,6 @@
         }
       </select>
     </div>
-
     }
   </div>
   @if (selectedDoctorId) {
@@ -46,10 +45,127 @@
       [startDayHour]="9"
       [endDayHour]="18"
       [showAllDayPanel]="false"
+      (onAppointmentFormOpening)="onAppointmentFormOpening($event)"
     >
       <!-- Configuration goes here -->
     </dx-scheduler>
   </div>
-
   }
+</div>
+
+<!-- Create Modal -->
+<div class="modal fade" id="addModal" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5">Create Appointment Form</h1>
+        <button
+          #addModalCloseBtn
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="modal"
+          aria-label="Close"
+        ></button>
+      </div>
+      <form
+        #addForm="ngForm"
+        formValidate
+        [autoValidateMessage]="true"
+        autocomplete="off"
+        (ngSubmit)="create(addForm)"
+      >
+        <div class="modal-body">
+          <div class="form-group text-center mt-2">
+            <span class="alert alert-primary"
+              >{{ createModel.startDate }} - {{ createModel.endDate }}</span
+            >
+          </div>
+          <div class="form-group mt-5">
+            <label>Identity Number</label>
+            <input
+              type="text"
+              (change)="getPatientByIdentityNumber()"
+              pattern="^[1-9][0-9]{9}[02468]$"
+              [(ngModel)]="createModel.identityNumber"
+              name="identityNumber"
+              class="form-control"
+              required
+              minlength="11"
+              maxlength="11"
+            />
+            <div class="invalid-feedback"></div>
+          </div>
+          <div class="form-group mt-1">
+            <label>First Name</label>
+            <input
+              type="text"
+              [(ngModel)]="createModel.firstName"
+              name="firstName"
+              class="form-control"
+              required
+              [disabled]="createModel.patientId !== null"
+              minlength="3"
+            />
+            <div class="invalid-feedback"></div>
+          </div>
+          <div class="form-group mt-1">
+            <label>Last Name</label>
+            <input
+              type="text"
+              [(ngModel)]="createModel.lastName"
+              name="lastName"
+              class="form-control"
+              required
+              [disabled]="createModel.patientId !== null"
+              minlength="3"
+            />
+            <div class="invalid-feedback"></div>
+          </div>
+          <div class="form-group mt-1">
+            <label>City</label>
+            <input
+              type="text"
+              [(ngModel)]="createModel.city"
+              name="city"
+              class="form-control"
+              required
+              [disabled]="createModel.patientId !== null"
+              minlength="3"
+            />
+            <div class="invalid-feedback"></div>
+          </div>
+          <div class="form-group mt-1">
+            <label>Town</label>
+            <input
+              type="text"
+              [(ngModel)]="createModel.town"
+              name="town"
+              class="form-control"
+              required
+              [disabled]="createModel.patientId !== null"
+              minlength="3"
+            />
+            <div class="invalid-feedback"></div>
+          </div>
+          <div class="form-group mt-1">
+            <label>Full Address</label>
+            <textarea
+              name="fullAddress"
+              type="text"
+              [(ngModel)]="createModel.fullAddress"
+              name="fullAddress"
+              class="form-control"
+              required
+              [disabled]="createModel.patientId !== null"
+              minlength="15"
+            ></textarea>
+            <div class="invalid-feedback"></div>
+          </div>
+        </div>
+        <div class="modal-footer mt-2">
+          <button type="submit" class="btn btn-dark w-100">Create</button>
+        </div>
+      </form>
+    </div>
+  </div>
 </div>
