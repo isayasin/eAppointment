@@ -4,6 +4,8 @@ using eAppointmentServer.Application.Features.Doctors.CreateDoctor;
 using eAppointmentServer.Application.Features.Doctors.UpdateDoctorById;
 using eAppointmentServer.Application.Features.Patients.CreatePatient;
 using eAppointmentServer.Application.Features.Patients.UpdatePatient;
+using eAppointmentServer.Application.Features.Users.CreateUser;
+using eAppointmentServer.Application.Features.Users.UpdateUser;
 using eAppointmentServer.Domain.Entities;
 using eAppointmentServer.Domain.Enums;
 
@@ -23,10 +25,12 @@ public sealed class MappingProfile : Profile
         });
 
         CreateMap<CreatePatientCommand, Patient>();
-
         CreateMap<UpdatePatientCommand, Patient>();
-
         CreateMap<CreateAppointmentCommand, Patient>();
+
+        CreateMap<CreateUserCommand, AppUser>();
+        CreateMap<UpdateUserCommand, AppUser>();
+
 
 
     }
