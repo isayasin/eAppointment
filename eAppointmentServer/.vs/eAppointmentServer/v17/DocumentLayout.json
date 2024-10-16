@@ -3,16 +3,52 @@
   "WorkspaceRootPath": "C:\\YBM-Projects\\eAppointment\\eAppointmentServer\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{FE94DC3A-7E62-4475-91C2-C4E6DA568706}|eAppointmentServer.Application\\eAppointmentServer.Application.csproj|c:\\ybm-projects\\eappointment\\eappointmentserver\\eappointmentserver.application\\features\\auth\\login\\logincommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE94DC3A-7E62-4475-91C2-C4E6DA568706}|eAppointmentServer.Application\\eAppointmentServer.Application.csproj|solutionrelative:eappointmentserver.application\\features\\auth\\login\\logincommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE94DC3A-7E62-4475-91C2-C4E6DA568706}|eAppointmentServer.Application\\eAppointmentServer.Application.csproj|c:\\ybm-projects\\eappointment\\eappointmentserver\\eappointmentserver.application\\services\\ijwtprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE94DC3A-7E62-4475-91C2-C4E6DA568706}|eAppointmentServer.Application\\eAppointmentServer.Application.csproj|solutionrelative:eappointmentserver.application\\services\\ijwtprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D756AB26-E317-488E-A370-85825466F614}|eAppointmentServer.Infrastructure\\eAppointmentServer.Infrastructure.csproj|c:\\ybm-projects\\eappointment\\eappointmentserver\\eappointmentserver.infrastructure\\services\\jwtprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D756AB26-E317-488E-A370-85825466F614}|eAppointmentServer.Infrastructure\\eAppointmentServer.Infrastructure.csproj|solutionrelative:eappointmentserver.infrastructure\\services\\jwtprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE94DC3A-7E62-4475-91C2-C4E6DA568706}|eAppointmentServer.Application\\eAppointmentServer.Application.csproj|c:\\ybm-projects\\eappointment\\eappointmentserver\\eappointmentserver.application\\features\\appointments\\getallappointmentsbydoctorid\\getallappointmentsbydoctoridqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE94DC3A-7E62-4475-91C2-C4E6DA568706}|eAppointmentServer.Application\\eAppointmentServer.Application.csproj|solutionrelative:eappointmentserver.application\\features\\appointments\\getallappointmentsbydoctorid\\getallappointmentsbydoctoridqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE94DC3A-7E62-4475-91C2-C4E6DA568706}|eAppointmentServer.Application\\eAppointmentServer.Application.csproj|c:\\ybm-projects\\eappointment\\eappointmentserver\\eappointmentserver.application\\features\\appointments\\getallappointmentsbydoctorid\\getallappointmentsbydoctoridqueryresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE94DC3A-7E62-4475-91C2-C4E6DA568706}|eAppointmentServer.Application\\eAppointmentServer.Application.csproj|solutionrelative:eappointmentserver.application\\features\\appointments\\getallappointmentsbydoctorid\\getallappointmentsbydoctoridqueryresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE94DC3A-7E62-4475-91C2-C4E6DA568706}|eAppointmentServer.Application\\eAppointmentServer.Application.csproj|c:\\ybm-projects\\eappointment\\eappointmentserver\\eappointmentserver.application\\features\\appointments\\getallappointmentsbydoctorid\\getallappointmentsbydoctoridquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE94DC3A-7E62-4475-91C2-C4E6DA568706}|eAppointmentServer.Application\\eAppointmentServer.Application.csproj|solutionrelative:eappointmentserver.application\\features\\appointments\\getallappointmentsbydoctorid\\getallappointmentsbydoctoridquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE94DC3A-7E62-4475-91C2-C4E6DA568706}|eAppointmentServer.Application\\eAppointmentServer.Application.csproj|c:\\ybm-projects\\eappointment\\eappointmentserver\\eappointmentserver.application\\features\\users\\deleteuserbyid\\deleteuserbyidcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE94DC3A-7E62-4475-91C2-C4E6DA568706}|eAppointmentServer.Application\\eAppointmentServer.Application.csproj|solutionrelative:eappointmentserver.application\\features\\users\\deleteuserbyid\\deleteuserbyidcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D756AB26-E317-488E-A370-85825466F614}|eAppointmentServer.Infrastructure\\eAppointmentServer.Infrastructure.csproj|c:\\ybm-projects\\eappointment\\eappointmentserver\\eappointmentserver.infrastructure\\repositories\\userrolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D756AB26-E317-488E-A370-85825466F614}|eAppointmentServer.Infrastructure\\eAppointmentServer.Infrastructure.csproj|solutionrelative:eappointmentserver.infrastructure\\repositories\\userrolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D411A524-E205-4C02-BEBA-87CDBB22CA97}|eAppointmentServer.WebAPI\\eAppointmentServer.WebAPI.csproj|c:\\ybm-projects\\eappointment\\eappointmentserver\\eappointmentserver.webapi\\controllers\\rolescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D411A524-E205-4C02-BEBA-87CDBB22CA97}|eAppointmentServer.WebAPI\\eAppointmentServer.WebAPI.csproj|solutionrelative:eappointmentserver.webapi\\controllers\\rolescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE94DC3A-7E62-4475-91C2-C4E6DA568706}|eAppointmentServer.Application\\eAppointmentServer.Application.csproj|c:\\ybm-projects\\eappointment\\eappointmentserver\\eappointmentserver.application\\features\\users\\getallrolesforusers\\getallrolesforusersquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE94DC3A-7E62-4475-91C2-C4E6DA568706}|eAppointmentServer.Application\\eAppointmentServer.Application.csproj|solutionrelative:eappointmentserver.application\\features\\users\\getallrolesforusers\\getallrolesforusersquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{FE94DC3A-7E62-4475-91C2-C4E6DA568706}|eAppointmentServer.Application\\eAppointmentServer.Application.csproj|c:\\ybm-projects\\eappointment\\eappointmentserver\\eappointmentserver.application\\features\\users\\getallusers\\getallusersqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FE94DC3A-7E62-4475-91C2-C4E6DA568706}|eAppointmentServer.Application\\eAppointmentServer.Application.csproj|solutionrelative:eappointmentserver.application\\features\\users\\getallusers\\getallusersqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FE94DC3A-7E62-4475-91C2-C4E6DA568706}|eAppointmentServer.Application\\eAppointmentServer.Application.csproj|c:\\ybm-projects\\eappointment\\eappointmentserver\\eappointmentserver.application\\features\\users\\getallusers\\getallusersqueryresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FE94DC3A-7E62-4475-91C2-C4E6DA568706}|eAppointmentServer.Application\\eAppointmentServer.Application.csproj|solutionrelative:eappointmentserver.application\\features\\users\\getallusers\\getallusersqueryresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FE94DC3A-7E62-4475-91C2-C4E6DA568706}|eAppointmentServer.Application\\eAppointmentServer.Application.csproj|c:\\ybm-projects\\eappointment\\eappointmentserver\\eappointmentserver.application\\features\\users\\getallrolesforusers\\getallrolesforusersquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FE94DC3A-7E62-4475-91C2-C4E6DA568706}|eAppointmentServer.Application\\eAppointmentServer.Application.csproj|solutionrelative:eappointmentserver.application\\features\\users\\getallrolesforusers\\getallrolesforusersquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D411A524-E205-4C02-BEBA-87CDBB22CA97}|eAppointmentServer.WebAPI\\eAppointmentServer.WebAPI.csproj|c:\\ybm-projects\\eappointment\\eappointmentserver\\eappointmentserver.webapi\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -31,20 +67,8 @@
       "RelativeMoniker": "D:0:0:{FE94DC3A-7E62-4475-91C2-C4E6DA568706}|eAppointmentServer.Application\\eAppointmentServer.Application.csproj|solutionrelative:eappointmentserver.application\\mapping\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D756AB26-E317-488E-A370-85825466F614}|eAppointmentServer.Infrastructure\\eAppointmentServer.Infrastructure.csproj|c:\\ybm-projects\\eappointment\\eappointmentserver\\eappointmentserver.infrastructure\\repositories\\userrolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D756AB26-E317-488E-A370-85825466F614}|eAppointmentServer.Infrastructure\\eAppointmentServer.Infrastructure.csproj|solutionrelative:eappointmentserver.infrastructure\\repositories\\userrolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D411A524-E205-4C02-BEBA-87CDBB22CA97}|eAppointmentServer.WebAPI\\eAppointmentServer.WebAPI.csproj|c:\\ybm-projects\\eappointment\\eappointmentserver\\eappointmentserver.webapi\\controllers\\rolescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D411A524-E205-4C02-BEBA-87CDBB22CA97}|eAppointmentServer.WebAPI\\eAppointmentServer.WebAPI.csproj|solutionrelative:eappointmentserver.webapi\\controllers\\rolescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{FE94DC3A-7E62-4475-91C2-C4E6DA568706}|eAppointmentServer.Application\\eAppointmentServer.Application.csproj|c:\\ybm-projects\\eappointment\\eappointmentserver\\eappointmentserver.application\\features\\users\\createuser\\createusercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FE94DC3A-7E62-4475-91C2-C4E6DA568706}|eAppointmentServer.Application\\eAppointmentServer.Application.csproj|solutionrelative:eappointmentserver.application\\features\\users\\createuser\\createusercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FE94DC3A-7E62-4475-91C2-C4E6DA568706}|eAppointmentServer.Application\\eAppointmentServer.Application.csproj|c:\\ybm-projects\\eappointment\\eappointmentserver\\eappointmentserver.application\\features\\users\\deleteuserbyid\\deleteuserbyidcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FE94DC3A-7E62-4475-91C2-C4E6DA568706}|eAppointmentServer.Application\\eAppointmentServer.Application.csproj|solutionrelative:eappointmentserver.application\\features\\users\\deleteuserbyid\\deleteuserbyidcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FE94DC3A-7E62-4475-91C2-C4E6DA568706}|eAppointmentServer.Application\\eAppointmentServer.Application.csproj|c:\\ybm-projects\\eappointment\\eappointmentserver\\eappointmentserver.application\\features\\users\\deleteuserbyid\\deleteuserbyidcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -107,10 +131,6 @@
       "RelativeMoniker": "D:0:0:{D411A524-E205-4C02-BEBA-87CDBB22CA97}|eAppointmentServer.WebAPI\\eAppointmentServer.WebAPI.csproj|solutionrelative:eappointmentserver.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D756AB26-E317-488E-A370-85825466F614}|eAppointmentServer.Infrastructure\\eAppointmentServer.Infrastructure.csproj|c:\\ybm-projects\\eappointment\\eappointmentserver\\eappointmentserver.infrastructure\\services\\jwtprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D756AB26-E317-488E-A370-85825466F614}|eAppointmentServer.Infrastructure\\eAppointmentServer.Infrastructure.csproj|solutionrelative:eappointmentserver.infrastructure\\services\\jwtprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D411A524-E205-4C02-BEBA-87CDBB22CA97}|eAppointmentServer.WebAPI\\eAppointmentServer.WebAPI.csproj|c:\\ybm-projects\\eappointment\\eappointmentserver\\eappointmentserver.webapi\\eappointmentserver.webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{D411A524-E205-4C02-BEBA-87CDBB22CA97}|eAppointmentServer.WebAPI\\eAppointmentServer.WebAPI.csproj|solutionrelative:eappointmentserver.webapi\\eappointmentserver.webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
@@ -142,7 +162,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 13,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -174,28 +194,67 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UsersController.cs",
-              "DocumentMoniker": "C:\\YBM-Projects\\eAppointment\\eAppointmentServer\\eAppointmentServer.WebAPI\\Controllers\\UsersController.cs",
-              "RelativeDocumentMoniker": "eAppointmentServer.WebAPI\\Controllers\\UsersController.cs",
-              "ToolTip": "C:\\YBM-Projects\\eAppointment\\eAppointmentServer\\eAppointmentServer.WebAPI\\Controllers\\UsersController.cs",
-              "RelativeToolTip": "eAppointmentServer.WebAPI\\Controllers\\UsersController.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAowBkAAABJAAAA",
+              "DocumentIndex": 0,
+              "Title": "LoginCommandHandler.cs",
+              "DocumentMoniker": "C:\\YBM-Projects\\eAppointment\\eAppointmentServer\\eAppointmentServer.Application\\Features\\Auth\\Login\\LoginCommandHandler.cs",
+              "RelativeDocumentMoniker": "eAppointmentServer.Application\\Features\\Auth\\Login\\LoginCommandHandler.cs",
+              "ToolTip": "C:\\YBM-Projects\\eAppointment\\eAppointmentServer\\eAppointmentServer.Application\\Features\\Auth\\Login\\LoginCommandHandler.cs",
+              "RelativeToolTip": "eAppointmentServer.Application\\Features\\Auth\\Login\\LoginCommandHandler.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAmwB4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-15T11:35:49.168Z",
+              "WhenOpened": "2024-10-15T13:59:08.952Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "GetAllRolesForUsersQuery.cs",
-              "DocumentMoniker": "C:\\YBM-Projects\\eAppointment\\eAppointmentServer\\eAppointmentServer.Application\\Features\\Users\\GetAllRolesForUsers\\GetAllRolesForUsersQuery.cs",
-              "RelativeDocumentMoniker": "eAppointmentServer.Application\\Features\\Users\\GetAllRolesForUsers\\GetAllRolesForUsersQuery.cs",
-              "ToolTip": "C:\\YBM-Projects\\eAppointment\\eAppointmentServer\\eAppointmentServer.Application\\Features\\Users\\GetAllRolesForUsers\\GetAllRolesForUsersQuery.cs",
-              "RelativeToolTip": "eAppointmentServer.Application\\Features\\Users\\GetAllRolesForUsers\\GetAllRolesForUsersQuery.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAUAAAAVAAAA",
+              "DocumentIndex": 1,
+              "Title": "IJwtProvider.cs",
+              "DocumentMoniker": "C:\\YBM-Projects\\eAppointment\\eAppointmentServer\\eAppointmentServer.Application\\Services\\IJwtProvider.cs",
+              "RelativeDocumentMoniker": "eAppointmentServer.Application\\Services\\IJwtProvider.cs",
+              "ToolTip": "C:\\YBM-Projects\\eAppointment\\eAppointmentServer\\eAppointmentServer.Application\\Services\\IJwtProvider.cs",
+              "RelativeToolTip": "eAppointmentServer.Application\\Services\\IJwtProvider.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T14:41:29.287Z",
+              "WhenOpened": "2024-10-15T13:57:51.285Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GetAllAppointmentsByDoctorIdQueryResponse.cs",
+              "DocumentMoniker": "C:\\YBM-Projects\\eAppointment\\eAppointmentServer\\eAppointmentServer.Application\\Features\\Appointments\\GetAllAppointmentsByDoctorId\\GetAllAppointmentsByDoctorIdQueryResponse.cs",
+              "RelativeDocumentMoniker": "eAppointmentServer.Application\\Features\\Appointments\\GetAllAppointmentsByDoctorId\\GetAllAppointmentsByDoctorIdQueryResponse.cs",
+              "ToolTip": "C:\\YBM-Projects\\eAppointment\\eAppointmentServer\\eAppointmentServer.Application\\Features\\Appointments\\GetAllAppointmentsByDoctorId\\GetAllAppointmentsByDoctorIdQueryResponse.cs",
+              "RelativeToolTip": "eAppointmentServer.Application\\Features\\Appointments\\GetAllAppointmentsByDoctorId\\GetAllAppointmentsByDoctorIdQueryResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T13:43:01Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GetAllAppointmentsByDoctorIdQuery.cs",
+              "DocumentMoniker": "C:\\YBM-Projects\\eAppointment\\eAppointmentServer\\eAppointmentServer.Application\\Features\\Appointments\\GetAllAppointmentsByDoctorId\\GetAllAppointmentsByDoctorIdQuery.cs",
+              "RelativeDocumentMoniker": "eAppointmentServer.Application\\Features\\Appointments\\GetAllAppointmentsByDoctorId\\GetAllAppointmentsByDoctorIdQuery.cs",
+              "ToolTip": "C:\\YBM-Projects\\eAppointment\\eAppointmentServer\\eAppointmentServer.Application\\Features\\Appointments\\GetAllAppointmentsByDoctorId\\GetAllAppointmentsByDoctorIdQuery.cs",
+              "RelativeToolTip": "eAppointmentServer.Application\\Features\\Appointments\\GetAllAppointmentsByDoctorId\\GetAllAppointmentsByDoctorIdQuery.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T13:42:57.319Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GetAllAppointmentsByDoctorIdQueryHandler.cs",
+              "DocumentMoniker": "C:\\YBM-Projects\\eAppointment\\eAppointmentServer\\eAppointmentServer.Application\\Features\\Appointments\\GetAllAppointmentsByDoctorId\\GetAllAppointmentsByDoctorIdQueryHandler.cs",
+              "RelativeDocumentMoniker": "eAppointmentServer.Application\\Features\\Appointments\\GetAllAppointmentsByDoctorId\\GetAllAppointmentsByDoctorIdQueryHandler.cs",
+              "ToolTip": "C:\\YBM-Projects\\eAppointment\\eAppointmentServer\\eAppointmentServer.Application\\Features\\Appointments\\GetAllAppointmentsByDoctorId\\GetAllAppointmentsByDoctorIdQueryHandler.cs",
+              "RelativeToolTip": "eAppointmentServer.Application\\Features\\Appointments\\GetAllAppointmentsByDoctorId\\GetAllAppointmentsByDoctorIdQueryHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T13:42:54.864Z",
               "EditorCaption": ""
             },
             {
@@ -226,46 +285,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "MappingProfile.cs",
-              "DocumentMoniker": "C:\\YBM-Projects\\eAppointment\\eAppointmentServer\\eAppointmentServer.Application\\Mapping\\MappingProfile.cs",
-              "RelativeDocumentMoniker": "eAppointmentServer.Application\\Mapping\\MappingProfile.cs",
-              "ToolTip": "C:\\YBM-Projects\\eAppointment\\eAppointmentServer\\eAppointmentServer.Application\\Mapping\\MappingProfile.cs",
-              "RelativeToolTip": "eAppointmentServer.Application\\Mapping\\MappingProfile.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAwAAAA",
+              "DocumentIndex": 2,
+              "Title": "JwtProvider.cs",
+              "DocumentMoniker": "C:\\YBM-Projects\\eAppointment\\eAppointmentServer\\eAppointmentServer.Infrastructure\\Services\\JwtProvider.cs",
+              "RelativeDocumentMoniker": "eAppointmentServer.Infrastructure\\Services\\JwtProvider.cs",
+              "ToolTip": "C:\\YBM-Projects\\eAppointment\\eAppointmentServer\\eAppointmentServer.Infrastructure\\Services\\JwtProvider.cs",
+              "RelativeToolTip": "eAppointmentServer.Infrastructure\\Services\\JwtProvider.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABAAAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-15T11:34:26.037Z",
+              "WhenOpened": "2024-10-14T11:48:27.831Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "GetAllUsersQueryResponse.cs",
-              "DocumentMoniker": "C:\\YBM-Projects\\eAppointment\\eAppointmentServer\\eAppointmentServer.Application\\Features\\Users\\GetAllUsers\\GetAllUsersQueryResponse.cs",
-              "RelativeDocumentMoniker": "eAppointmentServer.Application\\Features\\Users\\GetAllUsers\\GetAllUsersQueryResponse.cs",
-              "ToolTip": "C:\\YBM-Projects\\eAppointment\\eAppointmentServer\\eAppointmentServer.Application\\Features\\Users\\GetAllUsers\\GetAllUsersQueryResponse.cs",
-              "RelativeToolTip": "eAppointmentServer.Application\\Features\\Users\\GetAllUsers\\GetAllUsersQueryResponse.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA0AAAA",
+              "DocumentIndex": 9,
+              "Title": "GetAllRolesForUsersQuery.cs",
+              "DocumentMoniker": "C:\\YBM-Projects\\eAppointment\\eAppointmentServer\\eAppointmentServer.Application\\Features\\Users\\GetAllRolesForUsers\\GetAllRolesForUsersQuery.cs",
+              "RelativeDocumentMoniker": "eAppointmentServer.Application\\Features\\Users\\GetAllRolesForUsers\\GetAllRolesForUsersQuery.cs",
+              "ToolTip": "C:\\YBM-Projects\\eAppointment\\eAppointmentServer\\eAppointmentServer.Application\\Features\\Users\\GetAllRolesForUsers\\GetAllRolesForUsersQuery.cs",
+              "RelativeToolTip": "eAppointmentServer.Application\\Features\\Users\\GetAllRolesForUsers\\GetAllRolesForUsersQuery.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAUAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-15T11:17:39.786Z",
+              "WhenOpened": "2024-10-14T14:41:29.287Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 10,
               "Title": "GetAllUsersQueryHandler.cs",
               "DocumentMoniker": "C:\\YBM-Projects\\eAppointment\\eAppointmentServer\\eAppointmentServer.Application\\Features\\Users\\GetAllUsers\\GetAllUsersQueryHandler.cs",
               "RelativeDocumentMoniker": "eAppointmentServer.Application\\Features\\Users\\GetAllUsers\\GetAllUsersQueryHandler.cs",
               "ToolTip": "C:\\YBM-Projects\\eAppointment\\eAppointmentServer\\eAppointmentServer.Application\\Features\\Users\\GetAllUsers\\GetAllUsersQueryHandler.cs",
               "RelativeToolTip": "eAppointmentServer.Application\\Features\\Users\\GetAllUsers\\GetAllUsersQueryHandler.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAAAwC4AAAARAAAA",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAwCUAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-15T11:17:39.561Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 13,
               "Title": "UpdateUserCommand.cs",
               "DocumentMoniker": "C:\\YBM-Projects\\eAppointment\\eAppointmentServer\\eAppointmentServer.Application\\Features\\Users\\UpdateUser\\UpdateUserCommand.cs",
               "RelativeDocumentMoniker": "eAppointmentServer.Application\\Features\\Users\\UpdateUser\\UpdateUserCommand.cs",
@@ -278,7 +337,59 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
+              "Title": "DeleteUserByIdCommandHandler.cs",
+              "DocumentMoniker": "C:\\YBM-Projects\\eAppointment\\eAppointmentServer\\eAppointmentServer.Application\\Features\\Users\\DeleteUserById\\DeleteUserByIdCommandHandler.cs",
+              "RelativeDocumentMoniker": "eAppointmentServer.Application\\Features\\Users\\DeleteUserById\\DeleteUserByIdCommandHandler.cs",
+              "ToolTip": "C:\\YBM-Projects\\eAppointment\\eAppointmentServer\\eAppointmentServer.Application\\Features\\Users\\DeleteUserById\\DeleteUserByIdCommandHandler.cs",
+              "RelativeToolTip": "eAppointmentServer.Application\\Features\\Users\\DeleteUserById\\DeleteUserByIdCommandHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAEwBsAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T11:50:21.52Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "GetAllUsersQueryResponse.cs",
+              "DocumentMoniker": "C:\\YBM-Projects\\eAppointment\\eAppointmentServer\\eAppointmentServer.Application\\Features\\Users\\GetAllUsers\\GetAllUsersQueryResponse.cs",
+              "RelativeDocumentMoniker": "eAppointmentServer.Application\\Features\\Users\\GetAllUsers\\GetAllUsersQueryResponse.cs",
+              "ToolTip": "C:\\YBM-Projects\\eAppointment\\eAppointmentServer\\eAppointmentServer.Application\\Features\\Users\\GetAllUsers\\GetAllUsersQueryResponse.cs",
+              "RelativeToolTip": "eAppointmentServer.Application\\Features\\Users\\GetAllUsers\\GetAllUsersQueryResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T11:17:39.786Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "C:\\YBM-Projects\\eAppointment\\eAppointmentServer\\eAppointmentServer.Application\\Mapping\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "eAppointmentServer.Application\\Mapping\\MappingProfile.cs",
+              "ToolTip": "C:\\YBM-Projects\\eAppointment\\eAppointmentServer\\eAppointmentServer.Application\\Mapping\\MappingProfile.cs",
+              "RelativeToolTip": "eAppointmentServer.Application\\Mapping\\MappingProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T11:34:26.037Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\YBM-Projects\\eAppointment\\eAppointmentServer\\eAppointmentServer.WebAPI\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "eAppointmentServer.WebAPI\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\YBM-Projects\\eAppointment\\eAppointmentServer\\eAppointmentServer.WebAPI\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "eAppointmentServer.WebAPI\\Controllers\\UsersController.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAowBkAAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T11:35:49.168Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "GetAllRolesForUsersQueryHandler.cs",
               "DocumentMoniker": "C:\\YBM-Projects\\eAppointment\\eAppointmentServer\\eAppointmentServer.Application\\Features\\Users\\GetAllRolesForUsers\\GetAllRolesForUsersQueryHandler.cs",
               "RelativeDocumentMoniker": "eAppointmentServer.Application\\Features\\Users\\GetAllRolesForUsers\\GetAllRolesForUsersQueryHandler.cs",
@@ -291,7 +402,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 16,
               "Title": "CreateUserCommandHandler.cs",
               "DocumentMoniker": "C:\\YBM-Projects\\eAppointment\\eAppointmentServer\\eAppointmentServer.Application\\Features\\Users\\CreateUser\\CreateUserCommandHandler.cs",
               "RelativeDocumentMoniker": "eAppointmentServer.Application\\Features\\Users\\CreateUser\\CreateUserCommandHandler.cs",
@@ -304,20 +415,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "DeleteUserByIdCommandHandler.cs",
-              "DocumentMoniker": "C:\\YBM-Projects\\eAppointment\\eAppointmentServer\\eAppointmentServer.Application\\Features\\Users\\DeleteUserById\\DeleteUserByIdCommandHandler.cs",
-              "RelativeDocumentMoniker": "eAppointmentServer.Application\\Features\\Users\\DeleteUserById\\DeleteUserByIdCommandHandler.cs",
-              "ToolTip": "C:\\YBM-Projects\\eAppointment\\eAppointmentServer\\eAppointmentServer.Application\\Features\\Users\\DeleteUserById\\DeleteUserByIdCommandHandler.cs",
-              "RelativeToolTip": "eAppointmentServer.Application\\Features\\Users\\DeleteUserById\\DeleteUserByIdCommandHandler.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAEwAsAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-15T11:50:21.52Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 17,
               "Title": "DeleteUserByIdCommand.cs",
               "DocumentMoniker": "C:\\YBM-Projects\\eAppointment\\eAppointmentServer\\eAppointmentServer.Application\\Features\\Users\\DeleteUserById\\DeleteUserByIdCommand.cs",
               "RelativeDocumentMoniker": "eAppointmentServer.Application\\Features\\Users\\DeleteUserById\\DeleteUserByIdCommand.cs",
@@ -330,7 +428,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 18,
               "Title": "CreateUserCommand.cs",
               "DocumentMoniker": "C:\\YBM-Projects\\eAppointment\\eAppointmentServer\\eAppointmentServer.Application\\Features\\Users\\CreateUser\\CreateUserCommand.cs",
               "RelativeDocumentMoniker": "eAppointmentServer.Application\\Features\\Users\\CreateUser\\CreateUserCommand.cs",
@@ -343,7 +441,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 19,
               "Title": "AppointmentsController.cs",
               "DocumentMoniker": "C:\\YBM-Projects\\eAppointment\\eAppointmentServer\\eAppointmentServer.WebAPI\\Controllers\\AppointmentsController.cs",
               "RelativeDocumentMoniker": "eAppointmentServer.WebAPI\\Controllers\\AppointmentsController.cs",
@@ -356,7 +454,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 25,
               "Title": "Doctor.cs",
               "DocumentMoniker": "C:\\YBM-Projects\\eAppointment\\eAppointmentServer\\eAppointmentServer.Domain\\Entities\\Doctor.cs",
               "RelativeDocumentMoniker": "eAppointmentServer.Domain\\Entities\\Doctor.cs",
@@ -368,7 +466,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 26,
               "Title": "Patient.cs",
               "DocumentMoniker": "C:\\YBM-Projects\\eAppointment\\eAppointmentServer\\eAppointmentServer.Domain\\Entities\\Patient.cs",
               "RelativeDocumentMoniker": "eAppointmentServer.Domain\\Entities\\Patient.cs",
@@ -380,7 +478,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 23,
               "Title": "AppRole.cs",
               "DocumentMoniker": "C:\\YBM-Projects\\eAppointment\\eAppointmentServer\\eAppointmentServer.Domain\\Entities\\AppRole.cs",
               "RelativeDocumentMoniker": "eAppointmentServer.Domain\\Entities\\AppRole.cs",
@@ -392,7 +490,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 22,
               "Title": "AppUserRole.cs",
               "DocumentMoniker": "C:\\YBM-Projects\\eAppointment\\eAppointmentServer\\eAppointmentServer.Domain\\Entities\\AppUserRole.cs",
               "RelativeDocumentMoniker": "eAppointmentServer.Domain\\Entities\\AppUserRole.cs",
@@ -404,7 +502,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 21,
               "Title": "IUserRoleRepository.cs",
               "DocumentMoniker": "C:\\YBM-Projects\\eAppointment\\eAppointmentServer\\eAppointmentServer.Domain\\Repositories\\IUserRoleRepository.cs",
               "RelativeDocumentMoniker": "eAppointmentServer.Domain\\Repositories\\IUserRoleRepository.cs",
@@ -416,7 +514,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 24,
               "Title": "AppUser.cs",
               "DocumentMoniker": "C:\\YBM-Projects\\eAppointment\\eAppointmentServer\\eAppointmentServer.Domain\\Entities\\AppUser.cs",
               "RelativeDocumentMoniker": "eAppointmentServer.Domain\\Entities\\AppUser.cs",
@@ -428,7 +526,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 20,
               "Title": "GetAllUsersQuery.cs",
               "DocumentMoniker": "C:\\YBM-Projects\\eAppointment\\eAppointmentServer\\eAppointmentServer.Application\\Features\\Users\\GetAllUsers\\GetAllUsersQuery.cs",
               "RelativeDocumentMoniker": "eAppointmentServer.Application\\Features\\Users\\GetAllUsers\\GetAllUsersQuery.cs",
@@ -441,7 +539,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 27,
               "Title": "RoleSyncCommandHandler.cs",
               "DocumentMoniker": "C:\\YBM-Projects\\eAppointment\\eAppointmentServer\\eAppointmentServer.Application\\Features\\Roles\\RoleSync\\RoleSyncCommandHandler.cs",
               "RelativeDocumentMoniker": "eAppointmentServer.Application\\Features\\Roles\\RoleSync\\RoleSyncCommandHandler.cs",
@@ -453,7 +551,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 30,
               "Title": "eAppointmentServer.Application.csproj",
               "DocumentMoniker": "C:\\YBM-Projects\\eAppointment\\eAppointmentServer\\eAppointmentServer.Application\\eAppointmentServer.Application.csproj",
               "RelativeDocumentMoniker": "eAppointmentServer.Application\\eAppointmentServer.Application.csproj",
@@ -465,7 +563,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 29,
               "Title": "RoleSyncCommand.cs",
               "DocumentMoniker": "C:\\YBM-Projects\\eAppointment\\eAppointmentServer\\eAppointmentServer.Application\\Features\\Roles\\RoleSync\\RoleSyncCommand.cs",
               "RelativeDocumentMoniker": "eAppointmentServer.Application\\Features\\Roles\\RoleSync\\RoleSyncCommand.cs",
@@ -477,7 +575,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 28,
               "Title": "Constants.cs",
               "DocumentMoniker": "C:\\YBM-Projects\\eAppointment\\eAppointmentServer\\eAppointmentServer.Application\\Constants.cs",
               "RelativeDocumentMoniker": "eAppointmentServer.Application\\Constants.cs",
@@ -489,7 +587,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 35,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\YBM-Projects\\eAppointment\\eAppointmentServer\\eAppointmentServer.WebAPI\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "eAppointmentServer.WebAPI\\Properties\\launchSettings.json",
@@ -501,19 +599,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "JwtProvider.cs",
-              "DocumentMoniker": "C:\\YBM-Projects\\eAppointment\\eAppointmentServer\\eAppointmentServer.Infrastructure\\Services\\JwtProvider.cs",
-              "RelativeDocumentMoniker": "eAppointmentServer.Infrastructure\\Services\\JwtProvider.cs",
-              "ToolTip": "C:\\YBM-Projects\\eAppointment\\eAppointmentServer\\eAppointmentServer.Infrastructure\\Services\\JwtProvider.cs",
-              "RelativeToolTip": "eAppointmentServer.Infrastructure\\Services\\JwtProvider.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABkAAABfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T11:48:27.831Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 32,
               "Title": "eAppointmentServer.WebAPI.csproj",
               "DocumentMoniker": "C:\\YBM-Projects\\eAppointment\\eAppointmentServer\\eAppointmentServer.WebAPI\\eAppointmentServer.WebAPI.csproj",
               "RelativeDocumentMoniker": "eAppointmentServer.WebAPI\\eAppointmentServer.WebAPI.csproj",
@@ -525,7 +611,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 34,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\YBM-Projects\\eAppointment\\eAppointmentServer\\eAppointmentServer.WebAPI\\appsettings.json",
               "RelativeDocumentMoniker": "eAppointmentServer.WebAPI\\appsettings.json",
@@ -537,7 +623,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 33,
               "Title": "AuthController.cs",
               "DocumentMoniker": "C:\\YBM-Projects\\eAppointment\\eAppointmentServer\\eAppointmentServer.WebAPI\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "eAppointmentServer.WebAPI\\Controllers\\AuthController.cs",
@@ -549,7 +635,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 36,
               "Title": "ApiController.cs",
               "DocumentMoniker": "C:\\YBM-Projects\\eAppointment\\eAppointmentServer\\eAppointmentServer.WebAPI\\Abstractions\\ApiController.cs",
               "RelativeDocumentMoniker": "eAppointmentServer.WebAPI\\Abstractions\\ApiController.cs",
@@ -561,7 +647,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 31,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\YBM-Projects\\eAppointment\\eAppointmentServer\\eAppointmentServer.WebAPI\\Program.cs",
               "RelativeDocumentMoniker": "eAppointmentServer.WebAPI\\Program.cs",
@@ -573,7 +659,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 37,
               "Title": "UpdateAppointmentCommandHandler.cs",
               "DocumentMoniker": "C:\\YBM-Projects\\eAppointment\\eAppointmentServer\\eAppointmentServer.Application\\Features\\Appointments\\UpdateAppointment\\UpdateAppointmentCommandHandler.cs",
               "RelativeDocumentMoniker": "eAppointmentServer.Application\\Features\\Appointments\\UpdateAppointment\\UpdateAppointmentCommandHandler.cs",
