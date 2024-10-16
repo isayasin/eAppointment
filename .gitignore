@@ -3,6 +3,14 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 
+# Visual Studio temporary files
+.vs/
+*.suo
+
+# Build results and cache files
+bin/
+obj/
+
 # User-specific files
 *.rsuser
 *.suo
